@@ -11,10 +11,10 @@ https://nodejs.org/en/
     3.npm --version
     node - v10.15.x / npm - v6.4.x
 ## 1.3. vue 패키지 설치
-npm install -g @vue/cli
+    npm install -g @vue/cli
 # 2. 페이지 만들기
 ## 2.1 vue 생성
-vue create jennyyoon
+    vue create jennyyoon
 ### 생성규칙
     1.Manual 체크
     2.Babel, Router, Vuex는 spacebar로 체크해제
@@ -31,8 +31,8 @@ vue create jennyyoon
     다른 페이지가 아님을 의미한다.
 # 3. datagrid 추가
 ## devextreme 패키지 설치
-npm install --save devextreme devextreme-vue
-※npm install 하면 package.json 자동으로 입력됨
+    npm install --save devextreme devextreme-vue
+    ※npm install 하면 package.json 자동으로 입력됨
 ## datagrid 요소 추가
     https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/Vue/Light/
     1.페이지에서 App.vue를 Copy한 뒤 views폴더에 DataGrid.vue라는 새 파일을 만들어 Paste하고
@@ -51,3 +51,12 @@ npm install --save devextreme devextreme-vue
     Page 당 하나의 export를 가지게 된다.
     import 기능을 간략화 => export 바인딩 => 그리드에 표시됨
     이런 구조이다.
+# 4. electron 추가
+## electron 패키지 설치
+    npm install electron --save-dev
+## 빌드
+    1.npm run build
+    2.vue add electron-builder (dist_electron 생김)
+    3.npm run electron:build
+## 실행
+    npm run electron:serve (앱으로 실행됨)
