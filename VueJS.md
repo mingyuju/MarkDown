@@ -79,3 +79,4 @@ https://appdividend.com/2018/04/21/vue-firebase-crud-example/
     let app = Firebase.initializeApp(config)
     export const db = app.database()
     다음 내용을 입력한다.
+완성된 페이지에서 MVVM이 잘 작동한다.
