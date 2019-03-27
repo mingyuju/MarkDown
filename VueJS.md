@@ -61,3 +61,21 @@ https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/Vue/Lig
     3.npm run electron:build
 ## 실행
     npm run electron:serve (앱으로 실행됨)
+# 5. firebase 뷰 연동
+https://appdividend.com/2018/04/21/vue-firebase-crud-example/
+
+    예제와 같이 새 Vue를 생성하여 12 Step을 모두 마친 뒤
+    src폴더에 config 폴더를 생성하고 db.js를 만든 뒤
+    import Firebase from 'firebase'
+    var config = {
+    apiKey: "AIzaSyAHjYwnzB-Q1eornf7G6Si78PwjebbCCKo",
+    authDomain: "vuemoim.firebaseapp.com",
+    databaseURL: "https://vuemoim.firebaseio.com",
+    projectId: "vuemoim",
+    storageBucket: "vuemoim.appspot.com",
+    messagingSenderId: "856865636452"
+    };
+
+    let app = Firebase.initializeApp(config)
+    export const db = app.database()
+    다음 내용을 입력한다.
