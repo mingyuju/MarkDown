@@ -13,13 +13,13 @@ https://nodejs.org/en/
 ## 1.3. vue 패키지 설치
     npm install -g @vue/cli
 # 2. 페이지 만들기
-## 2.1 vue 생성
+## 2.1. vue 생성
     vue create jennyyoon
 ### 생성규칙
     1.Manual 체크
     2.Babel, Router, Vuex는 spacebar로 체크해제
     3.질문이 나오면 default로 no
-## 2.2 vue 실행
+## 2.2. vue 실행
     1.cd jennyyoon -- 제니윤 폴더로 이동
     2.dir -- 폴더 구성 확인
     3.code . -- visual studio code로 실행
