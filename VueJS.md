@@ -64,8 +64,8 @@ https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/Vue/Lig
 # 5. firebase 뷰 연동
 https://appdividend.com/2018/04/21/vue-firebase-crud-example/
 
-    예제와 같이 새 Vue를 생성하여 12 Step을 모두 마친 뒤
-    src폴더에 config 폴더를 생성하고 db.js를 만든 뒤
+    예제와 같이 새 Vue를 생성하여 12 Step을 모두 마친 다음
+    src폴더에 config 폴더를 생성하고 db.js를 만
     import Firebase from 'firebase'
     var config = {
     apiKey: "AIzaSyAHjYwnzB-Q1eornf7G6Si78PwjebbCCKo",
