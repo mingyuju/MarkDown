@@ -62,6 +62,9 @@ https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/Vue/Lig
 ## 실행
     npm run electron:serve (앱으로 실행됨)
 # 5. firebase 뷰 연동
+## firebase 패키지 설치
+npm install vuefire firebase --save
+## firebase 요소 추가
 https://appdividend.com/2018/04/21/vue-firebase-crud-example/
 
     예제와 같이 새 Vue를 생성하여 12 Step을 모두 마친 다음
@@ -80,3 +83,7 @@ https://appdividend.com/2018/04/21/vue-firebase-crud-example/
     export const db = app.database()
     다음 내용을 입력한다.
 완성된 페이지에서 MVVM이 잘 작동한다.
+## ※TIP 
+    package.json은 프로젝트파일임
+    node_modules 삭제 후 npm i 명령어 실행시 package.json 초기화
+    vue.router가 있어야 페이지 이동됨
