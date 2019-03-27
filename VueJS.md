@@ -32,8 +32,7 @@ vue create jennyyoon
 # 3. datagrid 추가
 ## devextreme 패키지 설치
 npm install --save devextreme devextreme-vue
-※TIP
-npm install 하면 package.json 자동으로 입력됨
+※npm install 하면 package.json 자동으로 입력됨
 ## datagrid 요소 추가
     https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/Vue/Light/
     1.페이지에서 App.vue를 Copy한 뒤 views폴더에 DataGrid.vue라는 새 파일을 만들어 Paste하고
